@@ -1,0 +1,26 @@
+<script src="/static/jquery-3.4.1.min.js"></script>
+<script type="module" src="/static/math.js"></script>
+<script type="module" src="/static/func.js"></script>
+<script type="module" src="/static/tetris.js"></script>
+<div id="tetrisContainer"></div>
+<script type="module">
+	import {Tetris} from "/static/tetris.js"
+
+    jQuery(() => {
+	    for (let i = 0; i < 1; i++) {
+	        new Tetris(false, 1, true);
+	    }
+	})
+
+</script>
+<style>
+    #tetrisContainer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .tetris {
+        margin: 5px;
+    }
+
+</style>

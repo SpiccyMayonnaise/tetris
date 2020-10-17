@@ -1,0 +1,11 @@
+{
+	"compilerOptions": {
+		"outDir": "./dist",
+		"rootDir": "./src",
+		"noImplicitAny": true,
+		"target": "es6",
+		"module": "es6",
+		"allowJs": true
+	},
+	"compileOnSave": true
+}
